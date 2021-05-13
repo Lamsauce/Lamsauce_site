@@ -1,9 +1,10 @@
-html, body {
-    overflow-x: hidden;
-  }
-
 body {
     background-color: white;
+}
+
+.wrapper {
+    overflow-x: hidden;
+    position: relative;
 }
 
 header {
@@ -18,7 +19,7 @@ header {
 }
 
 .header-pic {
-    width: 370px;
+    width: 400px;
     margin-top: 50px;
 }
 
