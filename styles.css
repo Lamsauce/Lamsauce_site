@@ -2,6 +2,13 @@ body {
     background-color: white;
 }
 
+header {
+    margin-right: auto;    
+    margin-left: auto;    
+    max-width: 100%;    
+    min-width: 400px;
+}
+
 .navbar-brand {
     padding-left: 20px;
 }
