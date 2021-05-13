@@ -1,0 +1,68 @@
+body {
+    background-color: white;
+}
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+.header-pic {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.header-container {
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+
+.header-background {
+    display: flex;
+    margin: center;
+}
+
+a {
+    color: rgb(69, 69, 69);
+    transition: 0.2s;
+}
+
+a.twitch:hover {
+    color: #6441a5;
+}
+
+a.youtube:hover {
+    color: red;
+}
+
+a.twitter:hover {
+    color: #1DA1F2;
+}
+
+a.disabled {
+    color: grey !important;
+}
+
+a.last-item {
+    padding-right: 30px !important;
+}
+
+h2 {
+    color: black;
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.nav-item {
+    font-size: 17px;
+}
+
+.nav-link {
+    color: white !important;
+    font-weight: bold;
+    transition: 0.1s;
+}
+
+.nav-link:hover {
+    color: rgb(255, 69, 69) !important;
+}
