@@ -1,3 +1,7 @@
+* {
+    font-family: 'Kanit', sans-serif;
+}
+
 body {
     background-color: white;
 }
@@ -16,6 +20,11 @@ header {
 
 .navbar-brand {
     padding-left: 20px;
+}
+
+.navbar-brand:hover {
+    transition: 0.2s;
+    transform: scale(1.05);
 }
 
 .header-pic {
@@ -37,18 +46,18 @@ header {
 
 a {
     color: rgb(69, 69, 69);
-    transition: 0.2s;
+    transition: 0.10s;
 }
 
-a.twitch:hover {
+a#twitch:hover {
     color: #6441a5;
 }
 
-a.youtube:hover {
+a#youtube:hover {
     color: red;
 }
 
-a.twitter:hover {
+a#twitter:hover {
     color: #1DA1F2;
 }
 
