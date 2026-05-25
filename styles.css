@@ -1,5 +1,5 @@
 * {
-    font-family: 'Kanit', sans-serif;
+    font-family: Calibri, sans-serif;
 }
 
 body {
@@ -46,7 +46,7 @@ header {
 
 a {
     color: rgb(69, 69, 69);
-    transition: 0.10s;
+    transition: 0.05s;
 }
 
 a#twitch:hover {
@@ -82,7 +82,7 @@ h2 {
 .nav-link {
     color: white !important;
     font-weight: bold;
-    transition: 0.05s;
+    transition: 0.10s;
 }
 
 .nav-link:hover {
